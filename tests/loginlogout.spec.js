@@ -16,5 +16,6 @@ test('Login and Logout Test Script', async({page})=>{
     await page.waitForTimeout(4000)
     await page.locator("//a[@id='logoutLink']").click()
     await page.waitForTimeout(4000)
+    await page.waitForTimeout(4000)
  
 })
